@@ -8,9 +8,13 @@
 
 ## 当前作品
 
-| 作品 | 预览 |
+| 作品 | 预览 / 链接 |
 | --- | --- |
 | STARLING-01 · 星际信使 | [/projects/starling-01/preview/](https://luke-arch-git.github.io/ai-portfolio/projects/starling-01/preview/) |
+| Sunset Valley | [Pages](https://luke-arch-git.github.io/sunset-valley/) · [仓库](https://github.com/luke-arch-git/sunset-valley) |
+| AI Micro Product Radar | [仓库](https://github.com/luke-arch-git/ai-micro-product-radar) |
+| MiMo Agent Workflow Lab | [仓库](https://github.com/luke-arch-git/mimo-agent-workflow-lab) |
+
 
 ## 如何新增作品
 

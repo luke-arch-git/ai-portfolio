@@ -5,7 +5,9 @@ function card(work) {
   el.className = 'card';
   el.innerHTML = `
     <a class="card-media" href="${work.href}" aria-label="打开 ${work.title}">
-      <img src="${work.hero}" alt="${work.title} ${work.subtitle || ''} 主视觉" loading="lazy">
+      ${work.hero
+        ? `<img src="${work.hero}" alt="${work.title} ${work.subtitle || ''} 主视觉" loading="lazy">`
+        : `<div class="card-fallback"><span>${work.title}</span></div>`}
     </a>
     <div class="card-body">
       <p class="card-meta">${work.date || ''}${work.tags?.length ? ' · ' + work.tags.join(' / ') : ''}</p>

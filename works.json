@@ -4,14 +4,101 @@
     "title": "STARLING-01",
     "subtitle": "星际信使",
     "date": "2026-11",
-    "tags": ["3d", "generative", "realtime"],
+    "tags": [
+      "3d",
+      "generative",
+      "realtime"
+    ],
     "summary": "复古未来主义航行器：陶瓷烤漆、香槟合金与光学青蓝玻璃构成的主角级三维道具。可在网页里实时旋转查看。",
     "hero": "projects/starling-01/output/STARLING-01_Hero_2048.png",
     "href": "projects/starling-01/preview/",
     "downloads": [
-      {"label": "GLB 模型", "href": "projects/starling-01/output/STARLING-01.glb", "note": "11.9 MB"},
-      {"label": "Blender 工程", "href": "projects/starling-01/output/STARLING-01.blend", "note": "7.3 MB"},
-      {"label": "10 秒旋转视频", "href": "projects/starling-01/output/STARLING-01_Turntable_10s.mp4", "note": "768² · 10s"}
+      {
+        "label": "GLB 模型",
+        "href": "projects/starling-01/output/STARLING-01.glb",
+        "note": "11.9 MB"
+      },
+      {
+        "label": "Blender 工程",
+        "href": "projects/starling-01/output/STARLING-01.blend",
+        "note": "7.3 MB"
+      },
+      {
+        "label": "10 秒旋转视频",
+        "href": "projects/starling-01/output/STARLING-01_Turntable_10s.mp4",
+        "note": "768² · 10s"
+      }
+    ]
+  },
+  {
+    "id": "sunset-valley",
+    "title": "Sunset Valley",
+    "subtitle": "代码里的落日山谷",
+    "date": "2026-10",
+    "tags": [
+      "3d",
+      "generative",
+      "web"
+    ],
+    "summary": "完全用代码画出的温馨 3D 小世界，可在网页里逛；仓库内另有演示视频。",
+    "hero": "https://raw.githubusercontent.com/luke-arch-git/sunset-valley/main/media/shot-1.jpg",
+    "href": "https://luke-arch-git.github.io/sunset-valley/",
+    "downloads": [
+      {
+        "label": "打开互动页",
+        "href": "https://luke-arch-git.github.io/sunset-valley/",
+        "note": "Pages"
+      },
+      {
+        "label": "GitHub 仓库",
+        "href": "https://github.com/luke-arch-git/sunset-valley",
+        "note": "源码"
+      },
+      {
+        "label": "演示视频",
+        "href": "https://github.com/luke-arch-git/sunset-valley/blob/main/media/sunset-valley.mp4",
+        "note": "mp4 · 原仓库"
+      }
+    ]
+  },
+  {
+    "id": "ai-micro-product-radar",
+    "title": "AI Micro Product Radar",
+    "subtitle": "AI 小产品机会雷达",
+    "date": "2026-07",
+    "tags": [
+      "research",
+      "product"
+    ],
+    "summary": "从真实用户痛点信号里扫描微型 AI 产品机会，含方法与站点材料。",
+    "hero": "",
+    "href": "https://github.com/luke-arch-git/ai-micro-product-radar",
+    "downloads": [
+      {
+        "label": "GitHub 仓库",
+        "href": "https://github.com/luke-arch-git/ai-micro-product-radar",
+        "note": "源码"
+      }
+    ]
+  },
+  {
+    "id": "mimo-agent-workflow-lab",
+    "title": "MiMo Agent Workflow Lab",
+    "subtitle": "中文 Agent 工作流实验",
+    "date": "2026-04",
+    "tags": [
+      "agent",
+      "experiment"
+    ],
+    "summary": "面向 MiMo 高额度评测的中文 AI Agent 工作流：日报、内容生成、学习复盘与长上下文压力测试。",
+    "hero": "",
+    "href": "https://github.com/luke-arch-git/mimo-agent-workflow-lab",
+    "downloads": [
+      {
+        "label": "GitHub 仓库",
+        "href": "https://github.com/luke-arch-git/mimo-agent-workflow-lab",
+        "note": "源码"
+      }
     ]
   }
 ]
