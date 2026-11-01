@@ -208,19 +208,15 @@
     "id": "sunset-valley",
     "date": "2026-10",
     "tags": [
+      "3d",
       "generative",
-      "experiment"
+      "web"
     ],
-    "featured": true,
-    "role": "piece",
     "title": {
       "zh": "日落山谷",
       "en": "Sunset Valley"
     },
-    "summary": {
-      "zh": "一个全部用代码画出来的 3D 小世界。没有贴图和模型，场景就是一个 HTML 文件。",
-      "en": "A small 3D world drawn entirely in code. No textures or models; the scene is a single HTML file."
-    },
+    "summary": "完全用代码画出的温馨 3D 小世界，可在网页里逛；仓库内另有演示视频。",
     "description": {
       "zh": [
         "水车、垂柳、双瀑布、绣球和日落时的凉亭，都由程序生成。地形、植物、水和天空没有使用图片、模型或贴图。",
@@ -234,53 +230,31 @@
       ]
     },
     "note": {
-      "zh": "这一帧来自项目仓库。在线场景和成片都在那边，不在本站重复托管。",
-      "en": "This still comes from the project repository. The live scene and the film stay there; they are not rehosted here."
+      "zh": "画面和成片都留在原来的仓库。这里只做链接，不复制大文件。",
+      "en": "The pictures and the film stay in the original repository. This site only links to them."
     },
-    "media": [
+    "subtitle": "代码里的落日山谷",
+    "summaryEn": "A small 3D world drawn entirely in code. Walk it on the web; the demo film stays in the original repository.",
+    "hero": "https://raw.githubusercontent.com/luke-arch-git/sunset-valley/main/media/shot-1.jpg",
+    "href": "https://luke-arch-git.github.io/sunset-valley/",
+    "downloads": [
       {
-        "type": "image",
-        "src": "media/sunset-valley/shot-1.jpg",
-        "width": 540,
-        "height": 960,
-        "alt": {
-          "zh": "日落山谷的一帧：小路穿过绣球花丛，通向红柱蓝顶的凉亭，旁边是悬崖瀑布和长着睡莲的水塘，远处树林带着移轴虚化。",
-          "en": "A frame from Sunset Valley: a path through hydrangeas leads to a blue-roofed pavilion, beside a cliff waterfall and a lily pond, with tilt-shift trees beyond."
-        },
-        "caption": {
-          "zh": "仓库中的一帧：小路、凉亭与瀑布",
-          "en": "A still from the repository: path, pavilion, and waterfall"
-        }
-      }
-    ],
-    "links": [
-      {
-        "label": {
-          "zh": "在线体验",
-          "en": "Live"
-        },
-        "href": "https://luke-arch-git.github.io/sunset-valley/"
+        "label": "打开互动页",
+        "labelEn": "Open the scene",
+        "href": "https://luke-arch-git.github.io/sunset-valley/",
+        "note": "Pages"
       },
       {
-        "label": {
-          "zh": "仓库",
-          "en": "Repository"
-        },
-        "href": "https://github.com/luke-arch-git/sunset-valley"
+        "label": "GitHub 仓库",
+        "labelEn": "GitHub repository",
+        "href": "https://github.com/luke-arch-git/sunset-valley",
+        "note": "源码"
       },
       {
-        "label": {
-          "zh": "成片（仓库内）",
-          "en": "Film in the repo"
-        },
-        "href": "https://github.com/luke-arch-git/sunset-valley/blob/main/media/sunset-valley.mp4"
-      },
-      {
-        "label": {
-          "zh": "灵感来源",
-          "en": "Inspiration"
-        },
-        "href": "https://x.com/keydol123"
+        "label": "演示视频",
+        "labelEn": "Demo film",
+        "href": "https://github.com/luke-arch-git/sunset-valley/blob/main/media/sunset-valley.mp4",
+        "note": "mp4 · 原仓库"
       }
     ]
   },
@@ -320,20 +294,16 @@
   },
   {
     "id": "ai-micro-product-radar",
-    "date": "2026",
+    "date": "2026-07",
     "tags": [
-      "experiment"
+      "research",
+      "product"
     ],
-    "featured": false,
-    "role": "repository",
     "title": {
       "zh": "AI 小产品雷达",
       "en": "AI Micro Product Radar"
     },
-    "summary": {
-      "zh": "把反复出现的小麻烦收成可以做成很小的 AI 产品的机会。信号和机会分开记。",
-      "en": "Turns recurring small pains into opportunities for tiny AI products. Signals and opportunities are kept apart."
-    },
+    "summary": "从真实用户痛点信号里扫描微型 AI 产品机会，含方法与站点材料。",
     "description": {
       "zh": [
         "这个仓库记录的不是工具大全，而是评论区、工作流和社群里反复出现、已经有人在手动解决的小麻烦。",
@@ -346,41 +316,36 @@
         "A site is already published and can be browsed directly."
       ]
     },
-    "media": [],
-    "links": [
+    "subtitle": "AI 小产品机会雷达",
+    "summaryEn": "Scans tiny AI product opportunities from real user pain signals, with methods and site material.",
+    "href": "https://github.com/luke-arch-git/ai-micro-product-radar",
+    "downloads": [
       {
-        "label": {
-          "zh": "在线页面",
-          "en": "Live site"
-        },
-        "href": "https://luke-arch-git.github.io/ai-micro-product-radar/"
+        "label": "GitHub 仓库",
+        "labelEn": "GitHub repository",
+        "href": "https://github.com/luke-arch-git/ai-micro-product-radar",
+        "note": "源码"
       },
       {
-        "label": {
-          "zh": "仓库",
-          "en": "Repository"
-        },
-        "href": "https://github.com/luke-arch-git/ai-micro-product-radar"
+        "label": "在线页面",
+        "labelEn": "Live site",
+        "href": "https://luke-arch-git.github.io/ai-micro-product-radar/",
+        "note": "Pages"
       }
     ]
   },
   {
     "id": "mimo-agent-workflow-lab",
-    "date": "2026",
+    "date": "2026-04",
     "tags": [
       "agent",
       "experiment"
     ],
-    "featured": false,
-    "role": "repository",
     "title": {
       "zh": "MiMo 智能体工作流实验",
       "en": "MiMo Agent Workflow Lab"
     },
-    "summary": {
-      "zh": "一组个人用的中文智能体工作流：每日简报、内容选题、Obsidian 学习复盘。",
-      "en": "Personal Chinese agent workflows for a daily briefing, content topics, and Obsidian study review."
-    },
+    "summary": "面向 MiMo 高额度评测的中文 AI Agent 工作流：日报、内容生成、学习复盘与长上下文压力测试。",
     "description": {
       "zh": [
         "仓库里收了三条还在改的工作流：公开信息的筛选和每日简报，面向小红书、公众号和社群的选题，以及基于 Obsidian 的学习复盘。",
@@ -393,14 +358,15 @@
         "The public demo runs locally and does not need an API key. Live source connectors are left out, so private accounts stay out of the repository."
       ]
     },
-    "media": [],
-    "links": [
+    "subtitle": "中文 Agent 工作流实验",
+    "summaryEn": "Chinese AI agent workflows for a MiMo evaluation: a daily briefing, content generation, study review, and long-context stress tests.",
+    "href": "https://github.com/luke-arch-git/mimo-agent-workflow-lab",
+    "downloads": [
       {
-        "label": {
-          "zh": "仓库",
-          "en": "Repository"
-        },
-        "href": "https://github.com/luke-arch-git/mimo-agent-workflow-lab"
+        "label": "GitHub 仓库",
+        "labelEn": "GitHub repository",
+        "href": "https://github.com/luke-arch-git/mimo-agent-workflow-lab",
+        "note": "源码"
       }
     ]
   }

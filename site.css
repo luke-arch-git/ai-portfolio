@@ -839,3 +839,16 @@ html[data-lang="zh"] .aside-title {
   .card, .shot, .player video, .btn { box-shadow: none; }
   a { text-decoration: underline; }
 }
+
+.card-fallback {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, #ebe4d6, #d9cfc0);
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  text-align: center;
+  padding: 1rem;
+}

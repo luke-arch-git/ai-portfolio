@@ -1,10 +1,13 @@
-/* Renders the portfolio from data/works.json. No build step. */
+/* Renders the portfolio from works.json. No build step. */
 (function () {
-  var KNOWN_TAGS = ["3d", "realtime", "motion", "generative", "education", "agent", "experiment"];
+  var KNOWN_TAGS = ["3d", "realtime", "web", "motion", "generative", "education", "agent", "experiment", "research", "product"];
   var TAG_LABELS = {
     "3d": { zh: "三维", en: "3D" },
     realtime: { zh: "实时", en: "Realtime" },
+    web: { zh: "网页", en: "Web" },
     motion: { zh: "动态", en: "Motion" },
+    research: { zh: "研究", en: "Research" },
+    product: { zh: "产品", en: "Product" },
     generative: { zh: "生成", en: "Generative" },
     education: { zh: "教育", en: "Education" },
     agent: { zh: "智能体", en: "Agent" },
@@ -466,7 +469,7 @@
       }));
     } else {
       var plate = h("div", { class: "plate" });
-      plate.append(h("strong", { text: work.role === "repository" ? t("plateRepo") : t("plateEmpty") }));
+      plate.append(h("strong", { text: work.href ? titleOf(work) : (work.role === "repository" ? t("plateRepo") : t("plateEmpty")) }));
       plate.append(h("span", { class: "idx", text: workNo(work) }));
       mediaLink.append(plate);
     }

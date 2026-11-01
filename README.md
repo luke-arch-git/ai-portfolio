@@ -14,10 +14,10 @@ GitHub Pages 从 `main` 分支的根目录发布。没有构建步骤。
 | --- | --- | --- |
 | [STARLING-01 · 星际信使](projects/starling-01/preview/) | 2026-11 | 首页第一张卡片。实时预览在 `projects/starling-01/preview/`，主视觉、GLB、Blender 工程和 10 秒旋转视频都在 `projects/starling-01/output/`。不要移动或覆盖这个目录。 |
 | 新粗野主义动态样片 | 2026-11 | 六张静帧，加 12 秒无声预览。完整母版另存，不进这个仓库。 |
-| 日落山谷 | 2026-10 | 仓库里的一帧，链到[在线场景](https://luke-arch-git.github.io/sunset-valley/)和源仓库。 |
+| 日落山谷 | 2026-10 | 卡片直接打开[在线场景](https://luke-arch-git.github.io/sunset-valley/)。封面用原仓库的图片地址，成片和源码也只做链接，不复制进本仓库。 |
 | 最短路径 · 蚂蚁配音重制 | 2026 | 只有文字。成片还没公开，所以没有画面，也没有外链。 |
-| AI 小产品雷达 | 2026 | 只链到仓库和已发布页面，不放替代截图。 |
-| MiMo 智能体工作流实验 | 2026 | 只链到仓库。 |
+| AI 小产品雷达 | 2026-07 | 卡片链到[仓库](https://github.com/luke-arch-git/ai-micro-product-radar)和[已发布页面](https://luke-arch-git.github.io/ai-micro-product-radar/)，不复制文件。 |
+| MiMo 智能体工作流实验 | 2026-04 | 卡片链到[仓库](https://github.com/luke-arch-git/mimo-agent-workflow-lab)，不复制文件。 |
 
 ### STARLING-01 下载
 
@@ -146,8 +146,8 @@ python3 -c "import json; json.load(open('works.json'))"
 | `summary` | 是 | 卡片上的短说明。字符串，或 `{ "zh", "en" }`。英文界面若要另一句，可另写 `summaryEn`。 |
 | `description` | 建议 | `{ "zh": ["段"], "en": ["..."] }`。详情页正文。 |
 | `note` | 否 | 一条需要先看见的限制，例如「站内只是预览」或「成片未公开」。 |
-| `hero` | 否 | 主视觉，相对仓库根目录。STARLING 用 `projects/starling-01/output/STARLING-01_Hero_2048.png`。 |
-| `href` | 否 | 卡片主链接。STARLING 指向 `projects/starling-01/preview/`。不写就进详情页。 |
+| `hero` | 否 | 主视觉。站内用相对路径，例如 STARLING 的 `projects/starling-01/output/STARLING-01_Hero_2048.png`。外链作品可以用原站的 `https://` 图片地址，不要把大文件复制进来。留空就显示文字卡片。 |
+| `href` | 否 | 卡片主链接。STARLING 指向 `projects/starling-01/preview/`。日落山谷、雷达和 MiMo 实验指向各自的 Pages 或仓库。不写就进详情页。 |
 | `downloads` | 否 | `{ "label", "href", "note" }` 的数组。同站文件会带下载。 |
 | `media` | 否 | 视频和图片，给没有 `hero` 的作品，或详情页的补充静帧。没有就省略或写 `[]`。 |
 | `links` | 否 | 详情页上的外链。只写真实地址。不要放打不开的占位链接。 |
@@ -170,6 +170,9 @@ python3 -c "import json; json.load(open('works.json'))"
 | `education` | 教育 | 把知识做成可以学的材料 |
 | `agent` | 智能体 | 智能体、工作流、自动流程 |
 | `experiment` | 实验 | 还在试、规模不大的公开实验 |
+| `web` | 网页 | 浏览器里直接打开的场景或页面 |
+| `research` | 研究 | 方法、信号和资料整理 |
+| `product` | 产品 | 对着真实使用场景做的小产品 |
 
 写了表以外的标签，站点仍会显示原文。请尽量用这些，筛选才整齐。
 
