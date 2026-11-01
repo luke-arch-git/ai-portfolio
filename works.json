@@ -10,92 +10,361 @@
       "realtime"
     ],
     "summary": "复古未来主义航行器：陶瓷烤漆、香槟合金与光学青蓝玻璃构成的主角级三维道具。可在网页里实时旋转查看。",
+    "summaryEn": "A retro-futurist vessel: ceramic enamel, champagne alloy, and optical cyan glass, built to be turned in the browser.",
     "hero": "projects/starling-01/output/STARLING-01_Hero_2048.png",
+    "heroWidth": 2048,
+    "heroHeight": 2048,
+    "heroAlt": {
+      "zh": "白瓷机身、珊瑚橙鼻锥和尾翼的 STARLING-01。圆形舷窗里有青色刻度，机身印着 STARLING 与 INTERSTELLAR COURIER，下方是黑色喷口。",
+      "en": "STARLING-01 with a white ceramic body, coral nose and fins, a round porthole with cyan marks, the words STARLING and INTERSTELLAR COURIER, and a black nozzle."
+    },
     "href": "projects/starling-01/preview/",
     "downloads": [
       {
         "label": "GLB 模型",
+        "labelEn": "GLB model",
         "href": "projects/starling-01/output/STARLING-01.glb",
         "note": "11.9 MB"
       },
       {
         "label": "Blender 工程",
+        "labelEn": "Blender file",
         "href": "projects/starling-01/output/STARLING-01.blend",
         "note": "7.3 MB"
       },
       {
         "label": "10 秒旋转视频",
+        "labelEn": "10-second turntable",
         "href": "projects/starling-01/output/STARLING-01_Turntable_10s.mp4",
         "note": "768² · 10s"
+      }
+    ],
+    "description": {
+      "zh": [
+        "一件复古未来主义的航行器道具，名叫 STARLING-01，星际信使。机身是陶瓷烤漆白，鼻锥和尾翼是珊瑚橙，舷窗是带青蓝读数的光学玻璃，喷口是深色金属。",
+        "网页里可以实时旋转、看线框，并对照高清主视觉。交付物都在 projects/starling-01/：GLB、Blender 工程，以及 10 秒、768 方画的旋转视频。",
+        "档案记下的尺寸：全高 4.88 米，机身最大直径 2.20 米，三片安定面，225 个构件。"
+      ],
+      "en": [
+        "A retro-futurist vessel named STARLING-01, the interstellar courier. The body is white ceramic enamel, the nose and fins are coral, the porthole is optical glass with cyan readouts, and the nozzle is dark metal.",
+        "The web preview can spin it, switch to wireframe, and compare the hero still. The delivery stays in projects/starling-01: a GLB, a Blender file, and a 10-second 768-square turntable.",
+        "The dossier lists an overall height of 4.88 m, a maximum fuselage diameter of 2.20 m, three stabilizers, and 225 components."
+      ]
+    },
+    "note": {
+      "zh": "交互预览和模型文件都在 projects/starling-01/，本页不另存一份。",
+      "en": "The interactive preview and the model files stay in projects/starling-01. This page does not keep a second copy."
+    },
+    "media": [
+      {
+        "type": "image",
+        "src": "projects/starling-01/output/STARLING-01_Views.png",
+        "width": 1800,
+        "height": 1370,
+        "alt": {
+          "zh": "STARLING-01 的五向检视：正面、侧面、背面、顶面和底面。底面能看到青色喷口叶片。",
+          "en": "Five inspection views of STARLING-01: front, side, back, top, and bottom. The underside shows the cyan nozzle vanes."
+        },
+        "caption": {
+          "zh": "结构检视",
+          "en": "Structural inspection"
+        }
       }
     ]
   },
   {
+    "id": "neo-brutalist-showreel",
+    "date": "2026-11",
+    "tags": [
+      "motion",
+      "generative"
+    ],
+    "featured": true,
+    "role": "piece",
+    "title": {
+      "zh": "新粗野主义动态样片",
+      "en": "Neo-brutalist Showreel"
+    },
+    "summary": {
+      "zh": "约 90 秒的动态图形。瑞士网格、1-bit 抖动、超大字级联，声音是纸、敲击和快门。本站只有开场 12 秒的无声预览。",
+      "en": "A motion piece of about 90 seconds: Swiss grid, 1-bit dither, oversized type, with paper, knock, and shutter sounds. This site hosts a silent 12-second opening preview."
+    },
+    "description": {
+      "zh": [
+        "这是一条大约 90 秒的动态图形短片。画面用瑞士网格撑开，影像压成 1-bit 抖动，字被放到过大的尺寸，一层层压过来。声音走有机的一路：纸、敲击、快门。",
+        "随片静帧上能读到这些段落：Cold Open、Grid Awakening、Breath、Soft Field、Collage、Soft Landing。角标写着 1920×1080、30P、GRID 12 / 24PX、BAYER 8×8 / 1-BIT。",
+        "下面的视频只覆盖开场大约 12 秒，从 Cold Open 进入 Grid Awakening。文件是 960×540，没有音轨，由 Remotion 导出。后面的段落用静帧放在这里。完整母版另行保存，不放进这个仓库。"
+      ],
+      "en": [
+        "A motion-graphics reel of about 90 seconds. A Swiss grid holds the frame, the picture is crushed to 1-bit dither, and type arrives far too large, in steps. The sound is organic: paper, knocks, a shutter.",
+        "Stills are labeled Cold Open, Grid Awakening, Breath, Soft Field, Collage, and Soft Landing. The frames are marked 1920×1080, 30P, GRID 12 / 24PX, BAYER 8×8 / 1-BIT.",
+        "The video below is only the opening, about 12 seconds, from Cold Open into Grid Awakening. The file is 960×540, has no audio track, and was exported from Remotion. Later passages are represented by stills. The full master is kept separately and is not stored in this repository."
+      ]
+    },
+    "note": {
+      "zh": "站内是预览，不是成片。完整母版约 90 秒，另行保存。",
+      "en": "What is hosted here is a preview, not the master. The full piece is about 90 seconds and lives elsewhere."
+    },
+    "media": [
+      {
+        "type": "video",
+        "src": "media/showreel/preview-12s.mp4",
+        "poster": "media/showreel/p01-cold-open.jpg",
+        "width": 960,
+        "height": 540,
+        "caption": {
+          "zh": "12 秒无声预览，从 Cold Open 进入 Grid Awakening。",
+          "en": "Silent 12-second preview, from Cold Open into Grid Awakening."
+        }
+      },
+      {
+        "type": "image",
+        "src": "media/showreel/p01-cold-open.jpg",
+        "width": 1920,
+        "height": 1080,
+        "alt": {
+          "zh": "浅灰纸底上的圆形 1-bit 抖动，中心几乎全黑，向外逐渐变疏。角标写着 SEQ 01 COLD OPEN。",
+          "en": "A circular 1-bit dither on warm paper, nearly solid black at the center and sparser outward. Labeled SEQ 01 COLD OPEN."
+        },
+        "caption": {
+          "zh": "SEQ 01 · Cold Open",
+          "en": "SEQ 01 · Cold Open"
+        }
+      },
+      {
+        "type": "image",
+        "src": "media/showreel/p02-grid-awakening.jpg",
+        "width": 1920,
+        "height": 1080,
+        "alt": {
+          "zh": "十二列网格里散布着竖条纹、渐变方块和小型抖动圆。角标为 SEQ 02 GRID AWAKENING。",
+          "en": "A twelve-column grid holding stripes, gradient blocks, and small dithered circles. Labeled SEQ 02 GRID AWAKENING."
+        },
+        "caption": {
+          "zh": "SEQ 02 · Grid Awakening",
+          "en": "SEQ 02 · Grid Awakening"
+        }
+      },
+      {
+        "type": "image",
+        "src": "media/showreel/p03-breath-signal.jpg",
+        "width": 1920,
+        "height": 1080,
+        "alt": {
+          "zh": "深色底上的灰色抖动渐变，右侧有环形，底部是大号点阵字 SIGNAL。画面标注 BREATH。",
+          "en": "A gray dither field on black, with a ring at the right and the word SIGNAL set large at the bottom. The frame is labeled BREATH."
+        },
+        "caption": {
+          "zh": "Breath · Signal",
+          "en": "Breath · Signal"
+        }
+      },
+      {
+        "type": "image",
+        "src": "media/showreel/p04-soft-field.jpg",
+        "width": 1920,
+        "height": 1080,
+        "alt": {
+          "zh": "粉彩纸底上，三个带硬阴影的窗口用虚线连在一起：同心圆抖动、nothing is wrong，以及一份读数。底部是超大字 soft field。角标 SEQ 04。",
+          "en": "On pastel paper, three hard-shadow windows are tied with dashed lines: concentric dither, the words nothing is wrong, and a readout. Oversized type says soft field. Labeled SEQ 04."
+        },
+        "caption": {
+          "zh": "SEQ 04 · Soft Field",
+          "en": "SEQ 04 · Soft Field"
+        }
+      },
+      {
+        "type": "image",
+        "src": "media/showreel/p05-collage.jpg",
+        "width": 1920,
+        "height": 1080,
+        "alt": {
+          "zh": "浅色网格上，EDGE 四个字沿对角线从黑到浅灰逐级变淡、变小。角标 SEQ 05 COLLAGE。",
+          "en": "On a pale grid, the word EDGE steps down the diagonal, each copy lighter and smaller. Labeled SEQ 05 COLLAGE."
+        },
+        "caption": {
+          "zh": "SEQ 05 · Collage",
+          "en": "SEQ 05 · Collage"
+        }
+      },
+      {
+        "type": "image",
+        "src": "media/showreel/p06-soft-landing.jpg",
+        "width": 1920,
+        "height": 1080,
+        "alt": {
+          "zh": "大片留白中央，三枚黑方块排成一个小三角。角标 SEQ 06 SOFT LANDING。",
+          "en": "Three black squares form a small triangle in a wide field of blank paper. Labeled SEQ 06 SOFT LANDING."
+        },
+        "caption": {
+          "zh": "SEQ 06 · Soft Landing",
+          "en": "SEQ 06 · Soft Landing"
+        }
+      }
+    ],
+    "links": []
+  },
+  {
     "id": "sunset-valley",
-    "title": "Sunset Valley",
-    "subtitle": "代码里的落日山谷",
     "date": "2026-10",
     "tags": [
       "3d",
       "generative",
       "web"
     ],
+    "title": {
+      "zh": "日落山谷",
+      "en": "Sunset Valley"
+    },
     "summary": "完全用代码画出的温馨 3D 小世界，可在网页里逛；仓库内另有演示视频。",
+    "description": {
+      "zh": [
+        "水车、垂柳、双瀑布、绣球和日落时的凉亭，都由程序生成。地形、植物、水和天空没有使用图片、模型或贴图。",
+        "草叶用 GPU 实例化绘制，风在顶点着色器里摆动。水面有菲涅尔和夕阳波光，池塘倒映凉亭与晚霞。光线、天空和雾从金黄过渡到粉紫。成片是竖屏，约 38 秒，环境音也是代码合成的。",
+        "技术栈是 Three.js、WebGL 和 GLSL。方向、需求和画面判断由作者来定，代码、渲染与音效和 AI 一起完成。灵感来自 X 上 @keydol123 分享的全代码小世界。"
+      ],
+      "en": [
+        "A waterwheel, a weeping willow, twin waterfalls, hydrangeas, and a pavilion at sunset are generated in code. Terrain, plants, water, and sky use no image, model, or texture assets.",
+        "Grass is drawn with GPU instancing and the wind moves in the vertex shader. Water uses Fresnel and sun glints; the pond reflects the pavilion and the dusk sky. Light, sky, and fog shift from gold to violet. The film is vertical, about 38 seconds, with ambience synthesized in code.",
+        "The stack is Three.js, WebGL, and GLSL. Direction, requirements, and visual judgment are the author's; the code, rendering, and audio were made with AI. Inspired by a code-only world shared by @keydol123 on X."
+      ]
+    },
+    "note": {
+      "zh": "画面和成片都留在原来的仓库。这里只做链接，不复制大文件。",
+      "en": "The pictures and the film stay in the original repository. This site only links to them."
+    },
+    "subtitle": "代码里的落日山谷",
+    "summaryEn": "A small 3D world drawn entirely in code. Walk it on the web; the demo film stays in the original repository.",
     "hero": "https://raw.githubusercontent.com/luke-arch-git/sunset-valley/main/media/shot-1.jpg",
     "href": "https://luke-arch-git.github.io/sunset-valley/",
     "downloads": [
       {
         "label": "打开互动页",
+        "labelEn": "Open the scene",
         "href": "https://luke-arch-git.github.io/sunset-valley/",
         "note": "Pages"
       },
       {
         "label": "GitHub 仓库",
+        "labelEn": "GitHub repository",
         "href": "https://github.com/luke-arch-git/sunset-valley",
         "note": "源码"
       },
       {
         "label": "演示视频",
+        "labelEn": "Demo film",
         "href": "https://github.com/luke-arch-git/sunset-valley/blob/main/media/sunset-valley.mp4",
         "note": "mp4 · 原仓库"
       }
     ]
   },
   {
+    "id": "shortest-path-ant-redub",
+    "date": "2026",
+    "tags": [
+      "education",
+      "agent"
+    ],
+    "featured": true,
+    "role": "piece",
+    "title": {
+      "zh": "最短路径 · 蚂蚁配音重制",
+      "en": "Shortest Path · Ant Redub"
+    },
+    "summary": {
+      "zh": "用蚂蚁作比喻的最短路径教学视频。AI 语音按常速重配，旁白只出现在关键节点。",
+      "en": "A shortest-path lesson told through ants. AI speech re-dubs it at a normal pace, and only on the key nodes."
+    },
+    "description": {
+      "zh": [
+        "这是一条数学教育视频，讲最短路径，比喻落在蚂蚁身上。",
+        "配音用 AI 语音按正常语速重做了一版。旁白是疏的，只在关键节点说，不把画面铺满解说。"
+      ],
+      "en": [
+        "A math-education video about shortest paths, told through an ant metaphor.",
+        "The voice was redone with AI speech at a normal pace. Narration stays sparse: it speaks only at the key nodes, and does not cover the picture."
+      ]
+    },
+    "note": {
+      "zh": "成片还没有公开，所以这一页没有预览画面，也没有外部链接。",
+      "en": "The film is not public yet, so this page has no preview and no outbound link."
+    },
+    "media": [],
+    "links": []
+  },
+  {
     "id": "ai-micro-product-radar",
-    "title": "AI Micro Product Radar",
-    "subtitle": "AI 小产品机会雷达",
     "date": "2026-07",
     "tags": [
       "research",
       "product"
     ],
+    "title": {
+      "zh": "AI 小产品雷达",
+      "en": "AI Micro Product Radar"
+    },
     "summary": "从真实用户痛点信号里扫描微型 AI 产品机会，含方法与站点材料。",
-    "hero": "",
+    "description": {
+      "zh": [
+        "这个仓库记录的不是工具大全，而是评论区、工作流和社群里反复出现、已经有人在手动解决的小麻烦。",
+        "原始需求信号和整理后的机会卡分开存放。机会卡要写清输入、输出、现在的笨办法，以及很小的第一版。现有机会卡是种子假设，还不是已经验证的生意。",
+        "网页已经发布，可以直接浏览。"
+      ],
+      "en": [
+        "This is not a directory of tools. It records small, repeated pains from comments, workflows, and communities: tasks someone is already doing by hand.",
+        "Raw signals and shaped opportunity cards live in separate files. A card has to name the input, the output, the current workaround, and a very small first version. The cards in the repo are seed hypotheses, not validated businesses.",
+        "A site is already published and can be browsed directly."
+      ]
+    },
+    "subtitle": "AI 小产品机会雷达",
+    "summaryEn": "Scans tiny AI product opportunities from real user pain signals, with methods and site material.",
     "href": "https://github.com/luke-arch-git/ai-micro-product-radar",
     "downloads": [
       {
         "label": "GitHub 仓库",
+        "labelEn": "GitHub repository",
         "href": "https://github.com/luke-arch-git/ai-micro-product-radar",
         "note": "源码"
+      },
+      {
+        "label": "在线页面",
+        "labelEn": "Live site",
+        "href": "https://luke-arch-git.github.io/ai-micro-product-radar/",
+        "note": "Pages"
       }
     ]
   },
   {
     "id": "mimo-agent-workflow-lab",
-    "title": "MiMo Agent Workflow Lab",
-    "subtitle": "中文 Agent 工作流实验",
     "date": "2026-04",
     "tags": [
       "agent",
       "experiment"
     ],
+    "title": {
+      "zh": "MiMo 智能体工作流实验",
+      "en": "MiMo Agent Workflow Lab"
+    },
     "summary": "面向 MiMo 高额度评测的中文 AI Agent 工作流：日报、内容生成、学习复盘与长上下文压力测试。",
-    "hero": "",
+    "description": {
+      "zh": [
+        "仓库里收了三条还在改的工作流：公开信息的筛选和每日简报，面向小红书、公众号和社群的选题，以及基于 Obsidian 的学习复盘。",
+        "想看的是中文优先的模型怎么处理长上下文、多步任务、有依据的摘要，以及每天重复跑的个人流程。",
+        "公开部分可以在本地跑起来，默认不需要 API 密钥。真正接数据源的部分没有放进仓库，以免带上私人账号。"
+      ],
+      "en": [
+        "Three workflows are collected here and still being revised: screening public information into a daily briefing, mining topics for Xiaohongshu, WeChat articles, and communities, and an Obsidian study review.",
+        "The question is how a Chinese-first model handles long context, multi-step tasks, sourced summaries, and personal workflows that run every day.",
+        "The public demo runs locally and does not need an API key. Live source connectors are left out, so private accounts stay out of the repository."
+      ]
+    },
+    "subtitle": "中文 Agent 工作流实验",
+    "summaryEn": "Chinese AI agent workflows for a MiMo evaluation: a daily briefing, content generation, study review, and long-context stress tests.",
     "href": "https://github.com/luke-arch-git/mimo-agent-workflow-lab",
     "downloads": [
       {
         "label": "GitHub 仓库",
+        "labelEn": "GitHub repository",
         "href": "https://github.com/luke-arch-git/mimo-agent-workflow-lab",
         "note": "源码"
       }
