@@ -1,0 +1,17 @@
+[
+  {
+    "id": "starling-01",
+    "title": "STARLING-01",
+    "subtitle": "星际信使",
+    "date": "2026-11",
+    "tags": ["3d", "generative", "realtime"],
+    "summary": "复古未来主义航行器：陶瓷烤漆、香槟合金与光学青蓝玻璃构成的主角级三维道具。可在网页里实时旋转查看。",
+    "hero": "projects/starling-01/output/STARLING-01_Hero_2048.png",
+    "href": "projects/starling-01/preview/",
+    "downloads": [
+      {"label": "GLB 模型", "href": "projects/starling-01/output/STARLING-01.glb", "note": "11.9 MB"},
+      {"label": "Blender 工程", "href": "projects/starling-01/output/STARLING-01.blend", "note": "7.3 MB"},
+      {"label": "10 秒旋转视频", "href": "projects/starling-01/output/STARLING-01_Turntable_10s.mp4", "note": "768² · 10s"}
+    ]
+  }
+]

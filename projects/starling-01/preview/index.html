@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#e8e3da">
+  <title>STARLING-01 · 星际信使</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="masthead">
+    <a class="identity" href="./" aria-label="STARLING-01 首页">
+      <svg class="mark" viewBox="0 0 44 44" aria-hidden="true"><path d="M22 2 27 17 42 22 27 27 22 42 17 27 2 22 17 17Z" fill="currentColor"/><circle cx="22" cy="22" r="5" fill="#e8e3da"/></svg>
+      <span>ORBITAL OBJECTS<br><b>DESIGN ARCHIVE</b></span>
+    </a>
+    <div class="edition">HERO PROP / 001<br>RELEASE 2026.11</div>
+    <div class="ready"><i></i> ASSET READY</div>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div>
+        <p class="eyebrow">INTERSTELLAR COURIER · DEEP SPACE SERVICE</p>
+        <h1>STARLING<span>—01</span></h1>
+      </div>
+      <div class="intro-copy">
+        <h2>星际信使</h2>
+        <p>复古未来主义航行器，以陶瓷烤漆、香槟合金与光学青蓝玻璃构成的主角级三维道具。</p>
+      </div>
+    </section>
+
+    <section class="workbench">
+      <div class="viewer-shell" id="viewer-shell">
+        <div id="viewer" aria-label="可交互的 STARLING-01 三维模型"></div>
+        <div class="viewer-label"><span>360° OBJECT STUDY</span><small>REAL-TIME PBR / GLB</small></div>
+        <div class="axis" aria-hidden="true"><span>Z</span><i></i><small>5.0 M</small></div>
+        <div class="loading" id="loading">
+          <div class="loading-mark">S—01</div>
+          <p>ASSEMBLING DIGITAL HARDWARE</p>
+          <div class="track"><i id="progress"></i></div>
+          <span id="load-value">0%</span>
+        </div>
+        <div class="toolbar" role="toolbar" aria-label="模型查看工具">
+          <button id="rotate" class="active" aria-pressed="true"><span class="button-index">01</span>自动旋转</button>
+          <button id="wireframe" aria-pressed="false"><span class="button-index">02</span>线框检查</button>
+          <button id="reset"><span class="button-index">03</span>重置视角</button>
+          <button id="compare"><span class="button-index">04</span>高清主视觉</button>
+        </div>
+      </div>
+
+      <aside class="specification">
+        <div class="spec-head"><span>OBJECT DOSSIER</span><b>S—01</b></div>
+        <p class="spec-intro">A small vessel for<br>very large distances.</p>
+        <dl>
+          <div><dt>OVERALL HEIGHT</dt><dd>4.88 <small>m</small></dd></div>
+          <div><dt>FUSELAGE Ø</dt><dd>2.20 <small>m</small></dd></div>
+          <div><dt>STABILIZERS</dt><dd>03 <small>pcs</small></dd></div>
+          <div><dt>COMPONENTS</dt><dd>225</dd></div>
+        </dl>
+        <div class="palette">
+          <span>MATERIAL PALETTE</span>
+          <div class="swatches">
+            <i style="--c:#F3F0E8" title="Ceramic ivory"></i>
+            <i style="--c:#F26647" title="Coral enamel"></i>
+            <i style="--c:#C8C4BD" title="Champagne alloy"></i>
+            <i style="--c:#303844" title="Deep titanium"></i>
+            <i style="--c:#65D9E6" title="Optical cyan"></i>
+          </div>
+        </div>
+        <div class="construction">
+          <span>CONSTRUCTION</span>
+          <p>连续曲面机身<br>多层实体光学舷窗<br>变厚度装甲尾翼<br>厚壁喷口与 12 片导流叶片</p>
+        </div>
+        <a class="download" href="../output/STARLING-01.glb" download><span>DOWNLOAD MODEL</span><b>GLB · 11.9 MB</b><i>↘</i></a>
+        <a class="download" href="../output/STARLING-01.blend" download><span>DOWNLOAD SOURCE</span><b>BLEND · 7.3 MB</b><i>↘</i></a>
+        <a class="download" href="../output/STARLING-01_Turntable_10s.mp4" download><span>DOWNLOAD TURNTABLE</span><b>MP4 · 10s</b><i>↘</i></a>
+      </aside>
+    </section>
+
+    <footer>
+      <p><b>DRAG</b> 旋转 <b>SCROLL</b> 缩放 <b>RIGHT DRAG</b> 平移</p>
+      <p>ORIGINAL DESIGN / FULL 360° GEOMETRY / EDITABLE SOURCE</p>
+    </footer>
+  </main>
+
+  <dialog id="hero-modal">
+    <div class="modal-head"><span>STARLING—01 / HERO PLATE</span><button id="close-modal" aria-label="关闭">CLOSE ×</button></div>
+    <img src="../output/STARLING-01_Hero_2048.png" alt="STARLING-01 高清产品主视觉">
+    <a href="../output/STARLING-01_Hero_2048.png" download>DOWNLOAD 2048 × 2048 PNG</a>
+  </dialog>
+  <script src="app.js"></script>
+</body>
+</html>

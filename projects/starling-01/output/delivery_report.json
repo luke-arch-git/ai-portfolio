@@ -1,0 +1,45 @@
+{
+  "asset": "STARLING-01 / 星际信使",
+  "hero_dimensions": [
+    2048,
+    2048
+  ],
+  "inspection_view_dimensions": [
+    1400,
+    1400
+  ],
+  "glb": {
+    "version": 2,
+    "meshes": 225,
+    "materials": 13,
+    "vertices": 337145,
+    "triangles": 486420,
+    "extensions": [
+      "KHR_materials_clearcoat",
+      "KHR_materials_transmission",
+      "KHR_materials_emissive_strength",
+      "KHR_materials_anisotropy",
+      "KHR_materials_ior"
+    ]
+  },
+  "video": {
+    "duration_seconds": 10,
+    "dimensions": [
+      768,
+      768
+    ],
+    "fps": 24,
+    "frames": 240
+  },
+  "files": {
+    "STARLING-01.blend": 7611332,
+    "STARLING-01.glb": 11938152,
+    "STARLING-01_Hero_2048.png": 3741132,
+    "STARLING-01_Turntable_10s.mp4": 899404,
+    "Front_view.png": 1810641,
+    "Side_view.png": 1765974,
+    "Back_view.png": 1758945,
+    "Top_view.png": 1702707,
+    "Bottom_view.png": 1991564
+  }
+}

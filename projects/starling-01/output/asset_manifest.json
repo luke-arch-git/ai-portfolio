@@ -1,0 +1,10 @@
+{
+  "asset": "STARLING-01 / 星际信使",
+  "blender": "5.2.3 LTS",
+  "objects_in_asset": 225,
+  "materials": 13,
+  "height_m": 4.88,
+  "body_max_diameter_m": 2.2,
+  "render": "Cycles / Metal / AgX",
+  "animation": "240 frames at 24 fps, linear 360-degree master rotation"
+}
