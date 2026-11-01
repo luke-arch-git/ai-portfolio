@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>未找到 · 何年</title>
+  <meta name="description" content="这个页面不在何年的 AI 作品集里。">
+  <meta name="theme-color" content="#f4f0e6">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="site.css">
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem("ai-portfolio-lang");
+        if (saved === "en") {
+          document.documentElement.lang = "en";
+          document.documentElement.dataset.lang = "en";
+        } else {
+          document.documentElement.dataset.lang = "zh";
+        }
+      } catch (e) {
+        document.documentElement.dataset.lang = "zh";
+      }
+    })();
+  </script>
+  <script src="site.js" defer></script>
+</head>
+<body data-page="missing" data-title-zh="未找到 · 何年" data-title-en="Not found · He Nian">
+  <a class="skip" href="#main" data-i18n="skip">跳到内容</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <svg class="mark" viewBox="0 0 36 36" width="28" height="28" aria-hidden="true">
+          <rect x="14" y="2" width="8" height="8"></rect>
+          <rect x="2" y="22" width="8" height="8"></rect>
+          <rect x="26" y="22" width="8" height="8"></rect>
+        </svg>
+        <span>何年</span>
+      </a>
+      <nav class="nav" data-i18n-aria="navLabel" aria-label="页面">
+        <a href="works.html" data-i18n="navWorks">作品</a>
+        <a href="about.html" data-i18n="navAbout">关于</a>
+      </nav>
+      <div class="lang" role="group" data-i18n-aria="langLabel" aria-label="语言">
+        <button type="button" data-lang-set="zh" aria-pressed="true">中文</button>
+        <button type="button" data-lang-set="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+    <div class="wrap">
+      <div class="missing">
+        <p class="kicker">404</p>
+        <h1 data-i18n="missingTitle">这个页面不在</h1>
+        <p data-i18n="missingBody">地址可能写错了。</p>
+        <a class="btn" href="index.html" data-i18n="homeLink">回首页</a>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p class="footer-note" data-i18n="footerBlurb">以后的 AI 作品也放在这里。</p>
+      <ul class="footer-links">
+        <li><a href="works.html" data-i18n="navWorks">作品</a></li>
+        <li><a href="about.html" data-i18n="navAbout">关于</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

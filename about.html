@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>关于 · 何年</title>
+  <meta name="description" content="何年，从地理信息走到人工智能应用。这个站点是 AI 作品的长期住处。">
+  <meta name="theme-color" content="#f4f0e6">
+  <meta name="color-scheme" content="light">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="site.css">
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem("ai-portfolio-lang");
+        if (saved === "en") {
+          document.documentElement.lang = "en";
+          document.documentElement.dataset.lang = "en";
+        } else {
+          document.documentElement.dataset.lang = "zh";
+        }
+      } catch (e) {
+        document.documentElement.dataset.lang = "zh";
+      }
+    })();
+  </script>
+  <script src="site.js" defer></script>
+</head>
+<body data-page="about" data-title-zh="关于 · 何年" data-title-en="About · He Nian">
+  <a class="skip" href="#main" data-i18n="skip">跳到内容</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <svg class="mark" viewBox="0 0 36 36" width="28" height="28" aria-hidden="true">
+          <rect x="14" y="2" width="8" height="8"></rect>
+          <rect x="2" y="22" width="8" height="8"></rect>
+          <rect x="26" y="22" width="8" height="8"></rect>
+        </svg>
+        <span>何年</span>
+      </a>
+      <nav class="nav" data-i18n-aria="navLabel" aria-label="页面">
+        <a href="works.html" data-i18n="navWorks">作品</a>
+        <a href="about.html" aria-current="page" data-i18n="navAbout">关于</a>
+      </nav>
+      <div class="lang" role="group" data-i18n-aria="langLabel" aria-label="语言">
+        <button type="button" data-lang-set="zh" aria-pressed="true">中文</button>
+        <button type="button" data-lang-set="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+    <div class="wrap">
+      <article class="prose">
+        <p class="kicker">ABOUT</p>
+        <h1 data-i18n="aboutTitle">关于</h1>
+        <p data-i18n="aboutP1">何年（He Nian）。GitHub 账号是 luke-arch-git。</p>
+        <p data-i18n="aboutP2">路径从地理信息系统走到人工智能应用。想做的事很具体：用程序和图像，把复杂的知识变成可以看见、可以跟着学的形状。</p>
+        <ul class="interest-list" data-i18n-aria="interestsLabel" aria-label="关心">
+          <li data-i18n="int1">人工智能</li>
+          <li data-i18n="int2">编程</li>
+          <li data-i18n="int3">AI 教育</li>
+          <li data-i18n="int4">数学可视化</li>
+          <li data-i18n="int5">让复杂的知识变得可学</li>
+        </ul>
+        <p data-i18n="aboutP3">这个网站是这些作品的长期住处。新的 AI 相关作品也收在这里。</p>
+        <p data-i18n="aboutP4">添加一件作品，改仓库根目录的 works.json。画面可以放进 media/，也可以像 STARLING-01 一样放在 projects/ 里再链过来。</p>
+        <div class="about-links">
+          <a class="btn" href="https://github.com/luke-arch-git" target="_blank" rel="me noopener noreferrer">GitHub</a>
+          <a class="btn btn-quiet" href="https://github.com/luke-arch-git/ai-portfolio#add-a-work" target="_blank" rel="noopener noreferrer" data-i18n="readmeLink">添加步骤</a>
+        </div>
+      </article>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p class="footer-note" data-i18n="footerBlurb">以后的 AI 作品也放在这里。</p>
+      <ul class="footer-links">
+        <li><a href="https://github.com/luke-arch-git/ai-portfolio" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="works.html" data-i18n="navWorks">作品</a></li>
+        <li><a href="index.html" data-i18n="home">首页</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
